@@ -24,11 +24,44 @@
     .button:hover {
         background-color: rgba(255,255,0,0.3);
       }
-    #contents {
+    .row {
+        border-collapse: collapse;
         border: 2px solid black;
-        padding: 25px;
+        width: 100%;
+        height: 500px;
     }
-    p, h2, h4, ul li {
-        font-family: Arial, Helvetica, sans-serif;
-     }
+    .column {
+      width:50%;
+      float: left;
+    }
+    #banner {
+        width: 100%;
+        height: 700px;
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: xx-large;
+        color: #FFFFFF;
+        font-weight: bold;
+      }
+    .underneath {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: x-large;
+        color: #FFFFFF;
+    }
+    .upper-right{
+      position: absolute;
+      top: 8px;
+      right: 16px;
+      font-size: large;
+      font-weight: bold;
+      color: #FFE4E1;
+      word-spacing: 12px;
+    }
 </style>
