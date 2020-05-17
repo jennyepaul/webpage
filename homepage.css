@@ -28,7 +28,10 @@
         border-collapse: collapse;
         border: 2px solid black;
         width: 100%;
-        height: 500px;
+        height: 300px;
+        background-color: #FFF0F5;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .column {
       width:50%;
