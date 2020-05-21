@@ -27,15 +27,17 @@
     .row {
         border-collapse: collapse;
         border: 2px solid black;
-        width: 100%;
-        height: 300px;
+        width: 97%;
+        height: 250px;
         background-color: #FFF0F5;
         padding-left: 25px;
         padding-right: 25px;
+        display: flex;
+        flex-wrap: wrap;
     }
     .column {
       width:50%;
-      float: left;
+      float: centered;
     }
     #banner {
         width: 100%;
